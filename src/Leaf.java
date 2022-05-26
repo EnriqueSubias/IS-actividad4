@@ -8,6 +8,7 @@ public class Leaf extends Component {
     }
 
     public int getInfo() {
+       // visited = true;
         return this.info;
     }
 

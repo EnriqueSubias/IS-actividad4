@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
@@ -7,19 +6,21 @@ public class Main {
 
         ArrayList<Component> list = new ArrayList<>();
         var sumVisitor = new SumVisitor();
+
         Leaf leaf1 = new Leaf(4);
         Leaf leaf2 = new Leaf(3);
         list.add(leaf1);
-        //leaf1.accept(sumVisitor);
-        //leaf2.accept(sumVisitor);
+        // leaf1.accept(sumVisitor);
+        // leaf2.accept(sumVisitor);
         list.add(leaf2);
 
         var component = new Composite(list);
-        //component.accept(sumVisitor);
-        //int sum = sumVisitor.getSum();
-        //int revisited = sumVisitor.getRevisited();
-        //System.out.println("Sum: " + sum);
-        //System.out.println("Revisited: " + revisited);
+
+        // component.accept(sumVisitor);
+        // int sum = sumVisitor.getSum();
+        // int revisited = sumVisitor.getRevisited();
+        // System.out.println("Sum: " + sum);
+        // System.out.println("Revisited: " + revisited);
 
 
         ArrayList<Component> list2 = new ArrayList<>();

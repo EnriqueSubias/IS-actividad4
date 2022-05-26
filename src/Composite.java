@@ -5,7 +5,7 @@ public class Composite extends Component {
 
     protected List<Component> components; // = new ArrayList<>();
 
-    public Composite(ArrayList<Component> components){
+    public Composite(List<Component> components){
         this.components = components;
     }
 
