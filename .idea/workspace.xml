@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61646cd-80e1-4f53-b2a7-42ed1e06980f" name="Changes" comment="Changes by Enrique">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumVisitor.java" afterDir="false" />
+    <list default="true" id="b61646cd-80e1-4f53-b2a7-42ed1e06980f" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/src/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite.java" afterDir="false" />
     </list>
-    <list id="33cb55aa-9584-4027-bd18-c19b4cfaa6a7" name="Changes by TriiF" comment="Changes by TriiF" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <updated>1653325594546</updated>
       <workItem from="1653325596018" duration="2296000" />
       <workItem from="1653328019319" duration="13803000" />
-      <workItem from="1653586858488" duration="6344000" />
+      <workItem from="1653586858488" duration="6644000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1653392738206</created>
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653593158786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes">
+      <created>1653593243164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653593243164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +121,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Changes by TriiF" />
     <MESSAGE value="Changes by Enrique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Enrique" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
