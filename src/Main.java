@@ -25,8 +25,11 @@ public class Main {
         ArrayList<Component> list2 = new ArrayList<>();
         Leaf leaf3 = new Leaf(2);
         Leaf leaf4 = new Leaf(1);
-        list.add(leaf3);
-        list.add(leaf4);
+        Leaf leaf5 = new Leaf(6);
+        list2.add(leaf3);
+        list2.add(leaf4);
+        list2.add(leaf4);
+        list2.add(leaf5);
 
         var component2 = new Composite(list2);
         component2.add(component);
