@@ -6,13 +6,10 @@ public class SumVisitor implements Visitor {
     protected int timesRevisited = 0;
     protected Set<Component> visited = new HashSet<>();
 
-    // protected  void doVisit(Leaf leaf);
-
     @Override
     public void visit(Leaf leaf) {
         if (visited.add(leaf)) {
             System.out.println(" + Leaf Visited");
-            //doVisit(leaf);
             sumLeaves += leaf.getInfo();
         }
     }
@@ -31,19 +28,6 @@ public class SumVisitor implements Visitor {
             }
         }
     }
-
-    /*
-    // Check if the leaf has been visited before
-    public boolean isVisited(Component component) {
-        // Check if the component is a leaf
-        if(component instanceof Leaf){
-            System.out.println("        isVisited() - Leaf");
-            return visited.contains(component);
-        }else {
-            System.out.println("        isVisited() - Composite");
-            return false;
-        }
-    }*/
 
     public int getSum(){
         return sumLeaves;

@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61646cd-80e1-4f53-b2a7-42ed1e06980f" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite.java" afterDir="false" />
+    <list default="true" id="b61646cd-80e1-4f53-b2a7-42ed1e06980f" name="Changes" comment="Changes by Enrique">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SumVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitorTemplate.java" beforeDir="false" />
     </list>
-    <list id="33cb55aa-9584-4027-bd18-c19b4cfaa6a7" name="Changes by TriiF" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor.java" afterDir="false" />
-    </list>
+    <list id="33cb55aa-9584-4027-bd18-c19b4cfaa6a7" name="Changes by TriiF" comment="Changes by TriiF" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,24 +22,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Leaf.java">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="33cb55aa-9584-4027-bd18-c19b4cfaa6a7" />
-        <range start1="9" end1="9" start2="10" end2="11" changelist="b61646cd-80e1-4f53-b2a7-42ed1e06980f" />
-        <range start1="11" end1="11" start2="13" end2="17" changelist="33cb55aa-9584-4027-bd18-c19b4cfaa6a7" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Main.java">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="1" changelist="b61646cd-80e1-4f53-b2a7-42ed1e06980f" />
-        <range start1="9" end1="9" start2="8" end2="9" changelist="b61646cd-80e1-4f53-b2a7-42ed1e06980f" />
-        <range start1="12" end1="14" start2="12" end2="14" changelist="b61646cd-80e1-4f53-b2a7-42ed1e06980f" />
-        <range start1="17" end1="22" start2="17" end2="23" changelist="b61646cd-80e1-4f53-b2a7-42ed1e06980f" />
-        <range start1="27" end1="29" start2="28" end2="33" changelist="33cb55aa-9584-4027-bd18-c19b4cfaa6a7" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,15 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -96,7 +73,7 @@
       <updated>1653325594546</updated>
       <workItem from="1653325596018" duration="2296000" />
       <workItem from="1653328019319" duration="13803000" />
-      <workItem from="1653586858488" duration="5925000" />
+      <workItem from="1653586858488" duration="6344000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1653392738206</created>
@@ -105,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653392738206</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes by TriiF">
+      <created>1653593144736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653593144736</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes by Enrique">
+      <created>1653593158786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653593158786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,18 +115,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Changes by TriiF" />
+    <MESSAGE value="Changes by Enrique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Enrique" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="this" />
