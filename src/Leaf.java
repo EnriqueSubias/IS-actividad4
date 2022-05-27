@@ -10,7 +10,8 @@ public class Leaf extends Component {
         return this.info;
     }
 
-    public void accept(CompVisitor compVisitor) {
-        compVisitor.visit(this);
+    @Override
+    public void accept(CompVisitor visitor) {
+        visitor.visit(this);
     }
 }

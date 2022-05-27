@@ -38,8 +38,8 @@ public class Main {
         int sum2 = sumVisitor.getSum();
         int revisited2 = sumVisitor.getRevisited();
 
-        System.out.println("Sum2: " + sum2);
-        System.out.println("Revisited2: " + revisited2);
+        System.out.println("Sum:       " + sum2);
+        System.out.println("Revisited: " + revisited2);
 
     }
 }
