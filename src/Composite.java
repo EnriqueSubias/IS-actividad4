@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Composite extends Component {
 
-    protected List<Component> components; // = new ArrayList<>();
+    private final List<Component> components;
 
     public Composite(List<Component> components) {
         this.components = components;
