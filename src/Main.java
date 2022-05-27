@@ -10,8 +10,6 @@ public class Main {
         Leaf leaf1 = new Leaf(4);
         Leaf leaf2 = new Leaf(3);
         list.add(leaf1);
-        // leaf1.accept(sumVisitor);
-        // leaf2.accept(sumVisitor);
         list.add(leaf2);
 
         var component = new Composite(list);
@@ -33,6 +31,7 @@ public class Main {
         list2.add(leaf5);
 
         var component2 = new Composite(list2);
+        component2.add(component);
         component2.add(component);
         component2.accept(sumVisitor);
         int sum2 = sumVisitor.getSum();

@@ -10,7 +10,7 @@ public class Composite extends Component {
     }
 
     public List<Component> getComponents() {
-        return Collections.unmodifiableList(components);
+        return components;
     }
 
     public void add(Component component) {

@@ -17,7 +17,10 @@ public class SumVisitor implements CompVisitor {
 
     @Override
     public void visit(Composite composite) {
-        if (!visited.add(composite)) return;
+        if (!visited.add(composite))  {
+            timesRevisited++;
+            return;
+        }
         for (Component component : composite.getComponents()) {
             component.accept(this);
         }
