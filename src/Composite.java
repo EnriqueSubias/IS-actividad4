@@ -17,7 +17,7 @@ public class Composite extends Component {
         this.components.add(component);
     }
 
-    public void accept(Visitor visitor) {
-        visitor.visit(this);
+    public void accept(CompVisitor compVisitor) {
+        compVisitor.visit(this);
     }
 }
