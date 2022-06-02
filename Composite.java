@@ -1,3 +1,5 @@
+
+package IS_actividad4;
 import java.util.Collections;
 import java.util.List;
 
@@ -18,7 +20,5 @@ public class Composite extends Component {
     }
 
     @Override
-    public void accept(CompVisitor visitor) {
-        visitor.visit(this);
-    }
+    public void accept(CompVisitor visitor) { visitor.visit(this); }
 }

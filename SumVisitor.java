@@ -1,6 +1,8 @@
+
+package IS_actividad4;
+
 import java.util.HashSet;
 import java.util.Set;
-
 public class SumVisitor implements CompVisitor {
     private int sumLeaves = 0;
     private int timesRevisited = 0;

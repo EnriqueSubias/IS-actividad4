@@ -1,4 +1,4 @@
-
+package IS_actividad4;
 public class Leaf extends Component {
     private final int info;
 
